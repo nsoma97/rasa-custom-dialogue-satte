@@ -1,0 +1,7 @@
+custom_state_bot/.idea
+.ipynb_checkpoints
+.idea
+custom_state_bot/venv
+venv
+custom_state_bot/models
+__pycache__

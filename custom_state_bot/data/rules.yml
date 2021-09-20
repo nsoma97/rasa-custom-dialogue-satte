@@ -2,12 +2,12 @@ version: "2.0"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: rule 1
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: nlu_fallback
+  - action: action_fill_table
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: rule 2
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: said_datetime
+  - action: action_fill_table
