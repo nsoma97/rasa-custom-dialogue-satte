@@ -3,3 +3,4 @@ pandas
 altair
 hun_date_parser
 datetimerange
+jupyter
